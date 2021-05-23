@@ -33,6 +33,12 @@ export default {
             titulo: 'Definición de los residuos de productos químicos',
             hash: 't_1_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipología de los residuos',
+            hash: 't_1_2',
+          },
         ],
       },
       {
