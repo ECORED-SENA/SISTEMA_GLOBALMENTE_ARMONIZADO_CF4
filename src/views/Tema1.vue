@@ -149,7 +149,7 @@
     .row.mb-0
       .col-2
       .col-8
-        .tabla-b.color-primario.tabla1.me-5
+        .tabla-b.color-primario.tabla2
           .tabla-b__header
             .h6.mb-0 Envase para residuos líquidos
           .row
@@ -169,7 +169,7 @@
     .row.mb-5
       .col-2
       .col-8
-        .tabla-b.color-primario.tabla1.me-5
+        .tabla-b.color-primario.tabla2
           .tabla-b__header
             .h6.mb-0 Envases para residuos sólidos
           .row
