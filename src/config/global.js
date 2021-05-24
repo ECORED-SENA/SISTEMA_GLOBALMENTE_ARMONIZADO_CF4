@@ -39,6 +39,30 @@ export default {
             titulo: 'Tipología de los residuos',
             hash: 't_1_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Clasificación de los residuos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Selección de los empaques para los residuos',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Envasado de los residuos de productos químicos',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Rotulado de los residuos',
+            hash: 't_1_6',
+          },
         ],
       },
       {
@@ -51,8 +75,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Almacenamiento temporal de los residuos',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Rutas de recolección de los residuos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Protocolos de disposición final de los residuos',
+            hash: 't_2_3',
           },
         ],
       },

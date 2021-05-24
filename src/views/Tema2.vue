@@ -4,138 +4,52 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal
-      .h3 Producción Audiovisual
+      .titulo-principal__numero
+        .h3 2
+      .h3 Disposición de los residuos de productos químicos
     
     #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+      .h4 2.1. Almacenamiento temporal de los residuos
+
+    .row.mb-4
+      .col-5.d-flex.align-items-center
+        figure
+          img(src="@/assets/curso/tema2/img01.png", alt="Texto que describa la imagen")
+      .col-7.d-flex.align-items-center
+        div
+          p.mb-4 Los residuos de productos químicos peligrosos requieren ser almacenados temporalmente mientras se define su tratamiento o procesos para disposición final, por eso es importante en los lugares de almacenamiento llevar el control de fechas de ingreso y salida de estos residuos, segregación de acuerdo con su compatibilidad, pretratamiento realizado, peligrosidad y reactividad, para poder distribuir en la bodega, o sitio de almacenamiento, los espacios, de tal forma que este no se convierta en un riesgo para la empresa y el área donde está ubicado. Deberá contar con sitios de ventilación, iluminación acorde a los tipos de productos almacenados, techos, paredes, pisos en materiales que permitan su manipulación y un acceso restringido, sobre todo en lo que respecta a residuos tóxicos.
+          p Para el almacenamiento de los residuos de productos químicos es necesario revisar la matriz de compatibilidad para cada tipo de producto y tenerla en cuenta para su ubicación en el sitio de almacenamiento.
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
     #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+      .h4 2.2. Rutas de recolección de los residuos
+    
+    p.mb-4 En una empresa, en una distribuidora o una comercializadora de productos químicos se generan muchos residuos de productos químicos, empaques y envases; por eso, se debe de disponer de medios para movilizar esos residuos desde los sitios de generación hasta donde serán almacenados temporalmente, convirtiéndose  en las rutas de recolección de los residuos de productos químicos. Para establecer estas rutas de recolección de residuos químicos es importante identificar las cantidades a transportar, la peligrosidad, la reactividad y los riesgos que estos productos presentan. De esta forma, se seleccionan los medios de transporte idóneos para realizarlo.
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    .row
+      .col-1
+      .col-10
+        figure.mb-4
+          img(src="@/assets/curso/tema2/img03.svg", alt="Texto que describa la imagen")
+      .col-1
     #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+      .h4 2.3. Protocolos de disposición final de los residuos
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
+    p.mb-4 Los residuos de productos químicos peligrosos corresponden según la normatividad a residuos peligrosos y requieren contar con protocolos y políticas para la gestión, tratamiento y disposición de estos residuos, cumpliendo los requerimientos legales de las autoridades locales y nacionales ambientales, así como el correcto transporte para mercancía peligrosa y su disposición por gestores autorizados. 
+    figure.mb-4
+      img(src="@/assets/curso/tema2/img02.png", alt="Texto que describa la imagen")
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
+    p.text-center.mb-4
+      strong Para ampliación de este tema se recomienda observar el siguiente video.
+    .row.mb-5
+      .col-4
+      .col-4
+       a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/tema2/icono-link.svg")
+          .anexo__texto.milink
+            strong.milink  Enlace web. 
+            |  Gestión de residuos químicos. Tratamientos.  (Dejar hasta el minuto 7).
+      .col-4
 </template>
 
 <script>

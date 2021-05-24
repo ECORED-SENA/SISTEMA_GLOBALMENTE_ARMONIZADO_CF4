@@ -124,7 +124,116 @@
                       li 
                         i.lista-ul__vineta
                         | Gestión del riesgo acorde a la exposición.
-        
+
+    #t_1_3.titulo-segundo
+      .h4 1.3. Clasificación de los residuos
+    
+    p.mb-4 Los residuos químicos peligrosos, resultantes de los procesos industriales, presentan características diferentes que pueden ser líquidos o sólidos principalmente, y desde estos estados deben plantearse la primera separación de ellos. Posteriormente, se deben clasificar estos residuos según la posibilidad de recuperación, de reutilización o de reciclado, que para ciertos productos resulta muy aconsejable. 
+    p.mb-4 Si se considera la peligrosidad se podría establecer la siguiente clasificación, según el Decreto 4741 de 2005:
+
+    TabsA.color-acento-contenido.mb-5   
+      .tarjeta.azul-claro.p-4(titulo="Clasificación I")
+        h4 Residuos peligrosos
+        p Residuos peligrosos: son aquellos residuos producidos por el generador con alguna característica como, infecciosos, combustibles, inflamables, explosivos, reactivos, radiactivos, volátiles, corrosivos y/o tóxicos, los cuales pueden causar daño a la salud humana y/o al medio ambiente. Así mismo, se consideran peligrosos los envases, empaques y embalajes que hayan estado en contacto con ellos.
+      .tarjeta.azul-claro.p-4(titulo="Clasificación II")
+        h4 Residuos no peligrosos 
+        p Residuos no peligrosos: estos residuos, considerando sus propiedades, pueden eliminarse mediante vertidos, directamente a las aguas residuales o a un vertedero, cumpliendo la legislación nacional. 
+      .tarjeta.azul-claro.p-4(titulo="Clasificación III")
+        h4 Residuos químicos peligrosos
+        p Residuos químicos peligrosos: en este apartado quedan incluidos residuos de diferentes tipologías como explosivos, corrosivos, inflamables, comburentes que presentan características especiales diferentes a un peligro radiactivo o biológico.
+    
+    #t_1_4.titulo-segundo
+      .h4 1.4. Selección de los empaques para los residuos
+
+    p.mb-4 Después de identificar  los residuos químicos y clasificarlos es importante seleccionar el tipo de empaque donde se debe depositar temporal o definitivamente el residuo. Dentro de las limitaciones que se tienen para realizarlo, se deben tener en cuenta la cantidad de residuos que se posee, la peligrosidad que presenta, la reactividad y las características fisicoquímicas y microbiológicas especiales de estos; y a partir de esos conocimientos, identificar el empaque del producto: si es plástico, metálico, de vidrio u otros tipos disponibles para tal fin.
+    .row.mb-0
+      .col-2
+      .col-8
+        .tabla-b.color-primario.tabla1.me-5
+          .tabla-b__header
+            .h6.mb-0 Envase para residuos líquidos
+          .row
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img09.svg', alt='')    
+              p Bidones de dos bocas, 200 L, de plástico y metal. 
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img10.svg', alt='')
+              p Garrafas de  boca estrecha, 25L y 10L
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img11.svg', alt='')  
+              p GRG, 1,000 L. 
+      .col-2
+    .row.mb-5
+      .col-2
+      .col-8
+        .tabla-b.color-primario.tabla1.me-5
+          .tabla-b__header
+            .h6.mb-0 Envases para residuos sólidos
+          .row
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img12.svg', alt='')    
+              p Bidones de dos bocas, 200 L, de plástico y metal. 
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img13.svg', alt='')
+              p Garrafas de  boca estrecha, 25L y 10L
+            .col-4.py-5
+              figure
+                img(src='@/assets/curso/tema1/img14.svg', alt='')  
+              p GRG, 1,000 L. 
+      .col-2
+
+    #t_1_5.titulo-segundo
+      .h4 1.5. Envasado de los residuos de productos químicos
+    
+    p.mb-4 Después de establecer el empaque para la disposición de los residuos de productos químicos, es importante verificar las condiciones de emergencia y locativas, donde se debe realizar el envasado de estos residuos. Previamente, se deben revisar las fichas de seguridad de esos productos químicos para establecer los peligros asociados a cada uno de ellos, las recomendaciones de almacenamiento sugeridas y los elementos de protección personal recomendados para su manipulación (gafas, máscaras respiratorias, uso de delantal, calzado, etc.).
+
+    .row.mb-4
+      .col-2
+      .col-8
+        .row.verde-claro
+          .col-3.d-flex.align-items-center.justify-content-center
+            figure.w-65.my-3
+              img(src='@/assets/curso/tema1/img15.svg', alt='')   
+          .col-9.d-flex.align-items-center
+            p El envasado deberá realizarse en zonas suficientemente ventiladas, con los elementos de protección y tomando en cuenta las recomendaciones para el trasvase de productos químicos.
+      .col-2
+    
+    p.mb-4 Cuando los residuos de diferentes productos químicos se dispongan en un mismo contenedor, se debe considerar que la disposición hecha sea compatible de acuerdo con lectura de las FDS de los productos químicos (sección 7 y 10) y las consideraciones de clasificación establecidas en los anexos 1, 2 y 3 del decreto colombiano 4741 de 2005. 
+    p.text-center.mb-4
+      strong Para ampliación de este tema se recomienda observar el siguiente video.
+    .row.mb-5
+      .col-4
+      .col-4
+       a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/tema1/icono-link.svg")
+          .anexo__texto.milink
+            strong.milink  Enlace web. 
+            |  Gestión de residuos químicos . Envasados.
+      .col-4
+
+    #t_1_6.titulo-segundo
+      .h4 1.6. Rotulado de los residuos
+    .row.mb-4
+      .col-5
+        p.mb-4 Los residuos de los productos químicos deben estar rotulados para minimizar los riesgos y así poder comunicar sus peligros a las personas que estén cerca de ellos mientras se realiza la disposición final.
+        p.mb-4 A continuación se presenta un ejemplo de un formato de rótulo de residuos líquidos peligrosos inflamables y carcinogénicos. 
+        p.mb-4 Nótese que es importante considerar en el rotulado los marcos regulatorios que le corresponda para el transporte como residuo peligroso, Decreto 1609 de 2002 (etiquetado y marcado).
+      .col-7.div-color-primario.p-3
+        .row
+          .col-12.texto-blanco
+            h6.text-center Ejemplificación de rotulado para residuo líquido peligroso
+          .col-12
+            figure
+              img(src='@/assets/curso/tema1/img16.svg', alt='')   
+    
+    
+
 </template>
 
 <script>
