@@ -1,2 +1,1 @@
-module.exports =
-  'Residuos de productos químicos                               '
+module.exports = 'Residuos de productos químicos                               '

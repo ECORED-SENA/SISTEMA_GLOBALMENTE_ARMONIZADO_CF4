@@ -43,7 +43,7 @@
     .row.mb-5
       .col-4
       .col-4
-       a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+       a.anexo.mb-4.mb-lg-0.milink(href="https://www.youtube.com/watch?v=95vZYxZ5VzY" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/tema2/icono-link.svg")
           .anexo__texto.milink

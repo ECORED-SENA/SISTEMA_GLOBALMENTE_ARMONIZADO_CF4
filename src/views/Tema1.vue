@@ -7,7 +7,10 @@
       .titulo-principal__numero
         .h3 1
       .h3 Tipos de residuos de productos químicos
-    
+
+    figure.mb-4
+      img(src='@/assets/curso/tema1/img17.svg', alt='')    
+
     #t_1_1.titulo-segundo
       .h4 1.1. Definición de los residuos de productos químicos
 
@@ -71,25 +74,25 @@
                     .tarjeta-Avatar
                       img.w-30(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')                   
                       .tarjeta.azul-claro.p-4
-                        .h4.text-center Reactivos 
-                        p Son aquellos que por sí solos y en condiciones normales, al mezclarse o al entrar en contacto con otros elementos, compuestos, sustancias o residuos, generan gases, vapores, humos tóxicos, explosión o reaccionan térmicamente colocando en riesgo la salud humana o el medio ambiente. Incluye líquidos de revelado y fijado, de laboratorios, medios de contraste, reactivos vencidos, sobrantes de reactivos.
+                        .h4.text-center Otros residuos 
+                        p Elemento o restos de estos en desuso, contaminados o que contengan metales pesados, tales como, plomo, cromo, cadmio, antimonio, bario, níquel, estaño, vanadio, zinc o mercurio; este último, por rompimiento de termómetros y demás accidentes de trabajo en los que esté presente el mercurio.
               .col-1 
             br                            
       .col-1
 
-    p.mb-4.text-center Si desea profundizar en este tema se recomienda los siguientes videos:
+    p.mb-4.text-center Para ampliación de este tema se recomienda el siguiente video:
 
     .row.mb-5
       .col-1
       .col-5
-        a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+        a.anexo.mb-4.mb-lg-0.milink(href="https://www.youtube.com/watch?v=iXywqWL-kAY" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/tema1/icono-link.svg")
           .anexo__texto.milink
             strong.milink  Enlace web. 
             | Comité Ambiental ESIQUE (2019, febrero 12). Residuos peligrosos (Dejar hasta el minuto 1).
       .col-5
-        a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+        a.anexo.mb-4.mb-lg-0.milink(href="https://www.youtube.com/watch?v=BSBWYQEouck" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/tema1/icono-link.svg")
           .anexo__texto.milink
@@ -111,7 +114,7 @@
           .col-6.d-flex.align-items-center
             .tabla-b.color-primario.tabla1.me-5
               .tabla-b__header
-                .h6.mb-0 RESPONSABILIDAD Y GESTION DE RIESGO
+                .h6.mb-0 RESPONSABILIDAD Y GESTIÓN DE RIESGO
               .div.p-4                       
                     p.mb-4 La diferenciación radica en que:
                     p.color-acento-contenido 1- Se deben comunicar los peligros.
@@ -120,7 +123,7 @@
                     ul.lista-ul
                       li.m-0 
                         i.lista-ul__vineta
-                        | Comunicación de los peligros, inherentes a la característica intrínseca e intensiva del residuo.
+                        | Comunicación de los PELIGROS, inherentes a la característica intrínseca e intensiva del residuo.
                       li 
                         i.lista-ul__vineta
                         | Gestión del riesgo acorde a la exposición.
@@ -134,13 +137,26 @@
     TabsA.color-acento-contenido.mb-5   
       .tarjeta.azul-claro.p-4(titulo="Clasificación I")
         h4 Residuos peligrosos
-        p Residuos peligrosos: son aquellos residuos producidos por el generador con alguna característica como, infecciosos, combustibles, inflamables, explosivos, reactivos, radiactivos, volátiles, corrosivos y/o tóxicos, los cuales pueden causar daño a la salud humana y/o al medio ambiente. Así mismo, se consideran peligrosos los envases, empaques y embalajes que hayan estado en contacto con ellos.
+        p Son aquellos residuos producidos por el generador con alguna característica como, infecciosos, combustibles, inflamables, explosivos, reactivos, radiactivos, volátiles, corrosivos y/o tóxicos, los cuales pueden causar daño a la salud humana y/o al medio ambiente. Así mismo, se consideran peligrosos los envases, empaques y embalajes que hayan estado en contacto con ellos.
       .tarjeta.azul-claro.p-4(titulo="Clasificación II")
         h4 Residuos no peligrosos 
-        p Residuos no peligrosos: estos residuos, considerando sus propiedades, pueden eliminarse mediante vertidos, directamente a las aguas residuales o a un vertedero, cumpliendo la legislación nacional. 
+        p Estos residuos, considerando sus propiedades, pueden eliminarse mediante vertidos, directamente a las aguas residuales o a un vertedero, cumpliendo la legislación nacional. 
       .tarjeta.azul-claro.p-4(titulo="Clasificación III")
         h4 Residuos químicos peligrosos
-        p Residuos químicos peligrosos: en este apartado quedan incluidos residuos de diferentes tipologías como explosivos, corrosivos, inflamables, comburentes que presentan características especiales diferentes a un peligro radiactivo o biológico.
+        p En este apartado quedan incluidos residuos de diferentes tipologías como explosivos, corrosivos, inflamables, comburentes que presentan características especiales diferentes a un peligro radiactivo o biológico.
+    
+    p.mb-4.text-center Para más información sobre este tema, consulte el documento "Clasificación de los residuos".
+
+    .row.mb-5
+      .col-4
+      .col-4
+        a.anexo.mb-5.mb-lg-0.milink(href="/downloads/Anexo_1_Clasificacion de los residuos.pdf" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/tema1/icono-link.svg")
+          .anexo__texto.milink
+            strong.milink  Anexo 1. 
+            | Clasificación de los residuos.
+      .col-4
     
     #t_1_4.titulo-segundo
       .h4 1.4. Selección de los empaques para los residuos
@@ -151,7 +167,7 @@
       .col-8
         .tabla-b.color-primario.tabla2
           .tabla-b__header
-            .h6.mb-0 Envase para residuos líquidos
+            .h6.mb-0 Tipos de envases para residuos líquidos
           .row
             .col-4.py-5
               figure
@@ -176,15 +192,15 @@
             .col-4.py-5
               figure
                 img(src='@/assets/curso/tema1/img12.svg', alt='')    
-              p Bidones de dos bocas, 200 L, de plástico y metal. 
+              p Bidones de boca ancha y cierre ballesta. 30 L, 60 L y 200 L
             .col-4.py-5
               figure
                 img(src='@/assets/curso/tema1/img13.svg', alt='')
-              p Garrafas de  boca estrecha, 25L y 10L
+              p Sacas Big-Bag. 500 L y 1000 L.
             .col-4.py-5
               figure
                 img(src='@/assets/curso/tema1/img14.svg', alt='')  
-              p GRG, 1,000 L. 
+              p Garrafas de boca ancha. 5 L y 10 L. 
       .col-2
 
     #t_1_5.titulo-segundo
@@ -209,7 +225,7 @@
     .row.mb-5
       .col-4
       .col-4
-       a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+       a.anexo.mb-4.mb-lg-0.milink(href="https://www.youtube.com/watch?v=Y19gix9jtpQ" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/tema1/icono-link.svg")
           .anexo__texto.milink
