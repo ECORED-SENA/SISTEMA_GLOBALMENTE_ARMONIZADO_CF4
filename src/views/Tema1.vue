@@ -27,7 +27,7 @@
     p.mb-4 Las siguientes definiciones son importantes para aclarar la terminología usada en el campo de los residuos químicos.
 
     .video.mb-4
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/Vdl29ndr07g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     .row.mb-4
       .col-1
@@ -62,7 +62,7 @@
               .col-1
               .col-10
                 .h4 Residuos químicos peligrosos
-                p.mb-4 son los restos de sustancias químicas y sus empaques, o cualquier otro residuo contaminado con estos, los cuales, dependiendo de su concentración y tiempo de exposición, tienen el potencial para causar la muerte, lesiones graves o efectos adversos a la salud y el medio ambiente. Dentro de estos se resaltan, de acuerdo con el marco normativo actual colombiano (Decreto 4741 de 2005):
+                p.mb-4 Son los restos de sustancias químicas y sus empaques, o cualquier otro residuo contaminado con estos, los cuales, dependiendo de su concentración y tiempo de exposición, tienen el potencial para causar la muerte, lesiones graves o efectos adversos a la salud y el medio ambiente. Dentro de estos se resaltan, de acuerdo con el marco normativo actual colombiano (Decreto 4741 de 2005):
                 .row.d-flex
                   .col-6.d-flex
                     .tarjeta-Avatar
@@ -80,7 +80,7 @@
             br                            
       .col-1
 
-    p.mb-4.text-center Para ampliación de este tema se recomienda el siguiente video:
+    p.mb-4.text-center Para ampliación de este tema se recomiendan los siguientes videos:
 
     .row.mb-5
       .col-1
