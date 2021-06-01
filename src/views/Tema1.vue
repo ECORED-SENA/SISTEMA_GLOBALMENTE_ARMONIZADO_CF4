@@ -150,7 +150,7 @@
     .row.mb-5
       .col-4
       .col-4
-        a.anexo.mb-5.mb-lg-0.milink(href="/downloads/Anexo_1_Clasificacion de los residuos.pdf" target="_blank")
+        a.anexo.mb-5.mb-lg-0.milink(:href="obtenerLink('/downloads/Anexo_1_Clasificacion de los residuos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/curso/tema1/icono-link.svg")
           .anexo__texto.milink
