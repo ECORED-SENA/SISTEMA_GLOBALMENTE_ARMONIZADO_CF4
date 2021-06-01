@@ -7,6 +7,9 @@
       .titulo-principal__numero
         .h3 2
       .h3 Disposición de los residuos de productos químicos
+
+    figure.mb-4
+      img(src="@/assets/curso/tema2/img04.png", alt="Texto que describa la imagen")
     
     #t_2_1.titulo-segundo
       .h4 2.1. Almacenamiento temporal de los residuos
