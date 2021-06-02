@@ -342,7 +342,7 @@ export default {
     {
       referencia:
         'Universidad del País Vasco. [UPV/EHU].  (2018). Módulo 7: Consideraciones residuos peligrosos de origen químico. [Archivo de video]: ',
-      link: 'YouTube. https://www.youtube.com/watch?v=BSBWYQEouck',
+      link: 'https://www.youtube.com/watch?v=BSBWYQEouck',
     },
     {
       referencia:
@@ -352,7 +352,7 @@ export default {
     {
       referencia:
         'Universidad del País Vasco. [UPV/EHU]. (2018, abril 30). Módulo 7: Gestión de residuos químicos (5) tratamiento. [Archivo de video]: ',
-      link: 'YouTube. https://www.youtube.com/watch?v=95vZYxZ5VzY',
+      link: 'https://www.youtube.com/watch?v=95vZYxZ5VzY',
     },
     {
       referencia: 'UPNA. (2010). Manual de usos de productos químicos: ',
