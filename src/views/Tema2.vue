@@ -6,13 +6,13 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 2
-      .h3 Disposición de los residuos de productos químicos
+      .h3.text-in Disposición de los residuos de productos químicos
 
     figure.mb-4
       img(src="@/assets/curso/tema2/img04.png", alt="Texto que describa la imagen")
     
     #t_2_1.titulo-segundo
-      .h4 2.1. Almacenamiento temporal de los residuos
+      .h4.text-in 2.1. Almacenamiento temporal de los residuos
 
     .row.mb-4
       .col-5.d-flex.align-items-center
@@ -20,7 +20,7 @@
           img(src="@/assets/curso/tema2/img01.png", alt="Texto que describa la imagen")
       .col-7.d-flex.align-items-center
         div
-          p.mb-4 Los residuos de productos químicos peligrosos requieren ser almacenados temporalmente mientras se define su tratamiento o procesos para disposición final, por eso es importante en los lugares de almacenamiento llevar el control de fechas de ingreso y salida de estos residuos, segregación de acuerdo con su compatibilidad, pretratamiento realizado, peligrosidad y reactividad, para poder distribuir en la bodega, o sitio de almacenamiento, los espacios, de tal forma que este no se convierta en un riesgo para la empresa y el área donde está ubicado. Deberá contar con sitios de ventilación, iluminación acorde a los tipos de productos almacenados, techos, paredes, pisos en materiales que permitan su manipulación y un acceso restringido, sobre todo en lo que respecta a residuos tóxicos.
+          p.mb-4 Los residuos de productos químicos peligrosos requieren ser almacenados temporalmente mientras se define su tratamiento o procesos para disposición final, por eso es importante en los lugares de almacenamiento llevar el control de fechas de ingreso y salida de estos residuos, segregación de acuerdo con su compatibilidad, pretratamiento realizado, peligrosidad y reactividad, para poder distribuir en la bodega, o sitio de almacenamiento, los espacios, de tal forma que este no represente un peligro para la empresa y el área donde está ubicado. Deberá contar con sitios de ventilación, iluminación acorde a los tipos de productos almacenados, techos, paredes, pisos en materiales que permitan su manipulación y un acceso restringido, sobre todo en lo que respecta a residuos tóxicos.
           p Para el almacenamiento de los residuos de productos químicos es necesario revisar la matriz de compatibilidad para cada tipo de producto y tenerla en cuenta para su ubicación en el sitio de almacenamiento.
     
     #t_2_2.titulo-segundo

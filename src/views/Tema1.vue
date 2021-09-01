@@ -6,13 +6,13 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 1
-      .h3 Tipos de residuos de productos químicos
+      .h3.text-in Tipos de residuos de productos químicos
 
     figure.mb-4
       img(src='@/assets/curso/tema1/img17.svg', alt='')    
 
     #t_1_1.titulo-segundo
-      .h4 1.1. Definición de los residuos de productos químicos
+      .h4.text-in 1.1. Definición de los residuos de productos químicos
 
     .row.mb-4
       .col-6.d-flex.align-items-center
@@ -21,7 +21,7 @@
       .col-6.d-flex.align-items-center
         div
           p.mb-4 En los procesos de producción, distribución, comercialización y manejo de los productos químicos resultan residuos de empaques, envases y pequeñas cantidades de materiales sobrantes de procesos de limpieza de equipos o de reacciones generadas con ellos que se requieren clasificar, almacenar temporalmente y disponer según su peligrosidad y características fisicoquímicas y microbiológicas, asegurando la protección de la salud de las personas que los manipulan, el medio ambiente y la seguridad de las áreas de trabajo y almacenamiento.
-          p Es importante identificar que esta temática va unida al Sistema Globalmente Armonizado (SGA) como insumo para la caracterización de residuos. Teniendo en cuenta la información de consulta en  la Ficha de Datos de Seguridad (FDS), es necesario revisar la información de la sección 13, la cual presenta la forma de disponer, tratar y eliminar el residuo en el producto, y la sección 10, donde está la información de reactividad y estabilidad que se debe tener presente para establecer la compatibilidad con otros residuos de productos químicos y para la selección de los envases a utilizar como contenedores, productos químicos que pueden ser vencidos, saldos o no conforme a disponer.
+          p Es importante identificar esta temática como insumo para la caracterización de residuos. Teniendo en cuenta la información de consulta en  la Ficha de Datos de Seguridad (FDS), es necesario revisar la información de la sección 13, la cual presenta la forma de disponer, tratar y eliminar el residuo en el producto, y la sección 10, donde está la información de reactividad y estabilidad que se debe tener presente para establecer la compatibilidad con otros residuos de productos químicos y para la selección de los envases a utilizar como contenedores, productos químicos que pueden ser vencidos, saldos o no conforme a disponer.
 
     p.mb-4 En la sección 8 de la FDS se encuentra la información sobre los elementos de protección personal requeridos en el proceso de manipulación del producto químico y por ende de sus residuos. Estos elementos de protección personal deben ser considerados por los manipuladores y gestores de estos residuos, así como por el trabajador que los genera. 
     p.mb-4 Las siguientes definiciones son importantes para aclarar la terminología usada en el campo de los residuos químicos.
@@ -66,13 +66,13 @@
                 .row.d-flex
                   .col-6.d-flex
                     .tarjeta-Avatar
-                      img.w-30(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
+                      img.w-30.zoom(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
                       .tarjeta.verde-claro.p-4
                         .h4.text-center Reactivos 
                         p Son aquellos que por sí solos y en condiciones normales, al mezclarse o al entrar en contacto con otros elementos, compuestos, sustancias o residuos, generan gases, vapores, humos tóxicos, explosión o reaccionan térmicamente colocando en riesgo la salud humana o el medio ambiente. Incluye líquidos de revelado y fijado, de laboratorios, medios de contraste, reactivos vencidos, sobrantes de reactivos.
                   .col-6.d-flex     
                     .tarjeta-Avatar
-                      img.w-30(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')                   
+                      img.w-30.zoom(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')                   
                       .tarjeta.azul-claro.p-4
                         .h4.text-center Otros residuos 
                         p Elemento o restos de estos en desuso, contaminados o que contengan metales pesados, tales como, plomo, cromo, cadmio, antimonio, bario, níquel, estaño, vanadio, zinc o mercurio; este último, por rompimiento de termómetros y demás accidentes de trabajo en los que esté presente el mercurio.
@@ -110,7 +110,7 @@
         .row
           .col-6.d-flex.align-items-center
             figure
-              img(src='@/assets/curso/tema1/img08.svg', alt='')     
+              img.swing(src='@/assets/curso/tema1/img08.svg', alt='')     
           .col-6.d-flex.align-items-center
             .tabla-b.color-primario.tabla1.me-5
               .tabla-b__header
@@ -214,7 +214,7 @@
         .row.verde-claro
           .col-3.d-flex.align-items-center.justify-content-center
             figure.w-65.my-3
-              img(src='@/assets/curso/tema1/img15.svg', alt='')   
+              img.zoom(src='@/assets/curso/tema1/img15.svg', alt='')   
           .col-9.d-flex.align-items-center
             p El envasado deberá realizarse en zonas suficientemente ventiladas, con los elementos de protección y tomando en cuenta las recomendaciones para el trasvase de productos químicos.
       .col-2
@@ -235,9 +235,9 @@
 
     #t_1_6.titulo-segundo
       .h4 1.6. Rotulado de los residuos
-    .row.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-5
-        p.mb-4 Los residuos de los productos químicos deben estar rotulados para minimizar los riesgos y así poder comunicar sus peligros a las personas que estén cerca de ellos mientras se realiza la disposición final.
+        p.mb-4 Los residuos de los productos químicos deben estar rotulados para minimizar y comunicar los peligros a las personas que estén cerca de ellos mientras se realiza la disposición final.
         p.mb-4 A continuación se presenta un ejemplo de un formato de rótulo de residuos líquidos peligrosos inflamables y carcinogénicos. 
         p.mb-4 Nótese que es importante considerar en el rotulado los marcos regulatorios que le corresponda para el transporte como residuo peligroso, Decreto 1609 de 2002 (etiquetado y marcado).
       .col-7.div-color-primario.p-3
@@ -246,7 +246,7 @@
             h6.text-center Ejemplificación de rotulado para residuo líquido peligroso
           .col-12
             figure
-              img(src='@/assets/curso/tema1/img16.svg', alt='')   
+              img.img-a.img-t(src='@/assets/curso/tema1/img16.jpeg', alt='')   
     
     
 
